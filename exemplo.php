@@ -6,6 +6,6 @@ use Dumaresq\DigitalCep\Search;
 
 $busca = new Search();
 
-$resultado = $busca->getAddressFromZipCode('59072600');
+$resultado = $busca->getAddressFromZipCode('59072710');
 
 print_r($resultado);
